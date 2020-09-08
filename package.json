@@ -1,0 +1,30 @@
+{
+  "name": "sticky-js",
+  "version": "1.0.0",
+  "description": "A basic template for sticky layout",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "npx babel src/ --out-dir lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huangguang1999/sticky-js.git"
+  },
+  "keywords": [
+    "sticky",
+    "javascript"
+  ],
+  "author": "huangguang<1226399454@qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/huangguang1999/sticky-js/issues"
+  },
+  "homepage": "https://github.com/huangguang1999/sticky-js#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/preset-env": "^7.11.5"
+  }
+}
